@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gallery">
+    <img src="img1.jpg" onclick="openModal(this.src)">
+    <img src="img2.jpg" onclick="openModal(this.src)">
+    <img src="img3.jpg" onclick="openModal(this.src)">
+  </div>
+
+  <div id="modal" class="modal" onclick="closeModal()">
+    <img id="modalImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
